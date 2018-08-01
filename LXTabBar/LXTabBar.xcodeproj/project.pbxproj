@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846DEE8021113DE600F9D165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEE7F21113DE600F9D165 /* AppDelegate.swift */; };
+		846DEE8721113DE700F9D165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846DEE8621113DE700F9D165 /* Assets.xcassets */; };
+		846DEE9521113DE700F9D165 /* LXTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEE9421113DE700F9D165 /* LXTabBarTests.swift */; };
+		846DEEA021113DE700F9D165 /* LXTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEE9F21113DE700F9D165 /* LXTabBarUITests.swift */; };
+		846DEEBA21113E3B00F9D165 /* LXContactItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEEAF21113E3B00F9D165 /* LXContactItem.swift */; };
+		846DEEBB21113E3B00F9D165 /* LXLookItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEEB021113E3B00F9D165 /* LXLookItem.swift */; };
+		846DEEBC21113E3B00F9D165 /* LXMessageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEEB121113E3B00F9D165 /* LXMessageItem.swift */; };
+		846DEEBD21113E3B00F9D165 /* LXTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEEB221113E3B00F9D165 /* LXTabBar.swift */; };
+		846DEEBE21113E3B00F9D165 /* LXTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEEB321113E3B00F9D165 /* LXTabBarController.swift */; };
+		846DEEBF21113E3B00F9D165 /* LXTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEEB421113E3B00F9D165 /* LXTabItem.swift */; };
+		846DEEC021113E3B00F9D165 /* LXTimeLineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEEB521113E3B00F9D165 /* LXTimeLineItem.swift */; };
+		846DEEC121113E3B00F9D165 /* UINavigationController+LXPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 846DEEB721113E3B00F9D165 /* UINavigationController+LXPush.m */; };
+		846DEEC221113E3B00F9D165 /* UIColor+LXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 846DEEB821113E3B00F9D165 /* UIColor+LXColor.m */; };
+		846DEEC921113E4300F9D165 /* LXContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEEC421113E4300F9D165 /* LXContactController.swift */; };
+		846DEECA21113E4300F9D165 /* LXTimeLineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEEC521113E4300F9D165 /* LXTimeLineController.swift */; };
+		846DEECB21113E4300F9D165 /* LXMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEEC621113E4300F9D165 /* LXMessageController.swift */; };
+		846DEECC21113E4300F9D165 /* LXLookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DEEC821113E4300F9D165 /* LXLookController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846DEE9121113DE700F9D165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846DEE7421113DE500F9D165 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846DEE7B21113DE500F9D165;
+			remoteInfo = LXTabBar;
+		};
+		846DEE9C21113DE700F9D165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846DEE7421113DE500F9D165 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846DEE7B21113DE500F9D165;
+			remoteInfo = LXTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846DEE7C21113DE500F9D165 /* LXTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846DEE7F21113DE600F9D165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846DEE8621113DE700F9D165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846DEE8B21113DE700F9D165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846DEE9021113DE700F9D165 /* LXTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846DEE9421113DE700F9D165 /* LXTabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXTabBarTests.swift; sourceTree = "<group>"; };
+		846DEE9621113DE700F9D165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846DEE9B21113DE700F9D165 /* LXTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846DEE9F21113DE700F9D165 /* LXTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXTabBarUITests.swift; sourceTree = "<group>"; };
+		846DEEA121113DE700F9D165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846DEEAD21113E3A00F9D165 /* LXTabBar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LXTabBar-Bridging-Header.h"; sourceTree = "<group>"; };
+		846DEEAF21113E3B00F9D165 /* LXContactItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXContactItem.swift; sourceTree = "<group>"; };
+		846DEEB021113E3B00F9D165 /* LXLookItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXLookItem.swift; sourceTree = "<group>"; };
+		846DEEB121113E3B00F9D165 /* LXMessageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXMessageItem.swift; sourceTree = "<group>"; };
+		846DEEB221113E3B00F9D165 /* LXTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXTabBar.swift; sourceTree = "<group>"; };
+		846DEEB321113E3B00F9D165 /* LXTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXTabBarController.swift; sourceTree = "<group>"; };
+		846DEEB421113E3B00F9D165 /* LXTabItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXTabItem.swift; sourceTree = "<group>"; };
+		846DEEB521113E3B00F9D165 /* LXTimeLineItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXTimeLineItem.swift; sourceTree = "<group>"; };
+		846DEEB621113E3B00F9D165 /* UINavigationController+LXPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+LXPush.h"; sourceTree = "<group>"; };
+		846DEEB721113E3B00F9D165 /* UINavigationController+LXPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+LXPush.m"; sourceTree = "<group>"; };
+		846DEEB821113E3B00F9D165 /* UIColor+LXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LXColor.m"; sourceTree = "<group>"; };
+		846DEEB921113E3B00F9D165 /* UIColor+LXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LXColor.h"; sourceTree = "<group>"; };
+		846DEEC421113E4300F9D165 /* LXContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXContactController.swift; sourceTree = "<group>"; };
+		846DEEC521113E4300F9D165 /* LXTimeLineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXTimeLineController.swift; sourceTree = "<group>"; };
+		846DEEC621113E4300F9D165 /* LXMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXMessageController.swift; sourceTree = "<group>"; };
+		846DEEC821113E4300F9D165 /* LXLookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXLookController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846DEE7921113DE500F9D165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846DEE8D21113DE700F9D165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846DEE9821113DE700F9D165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846DEE7321113DE500F9D165 = {
+			isa = PBXGroup;
+			children = (
+				846DEE7E21113DE500F9D165 /* LXTabBar */,
+				846DEE9321113DE700F9D165 /* LXTabBarTests */,
+				846DEE9E21113DE700F9D165 /* LXTabBarUITests */,
+				846DEE7D21113DE500F9D165 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846DEE7D21113DE500F9D165 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846DEE7C21113DE500F9D165 /* LXTabBar.app */,
+				846DEE9021113DE700F9D165 /* LXTabBarTests.xctest */,
+				846DEE9B21113DE700F9D165 /* LXTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846DEE7E21113DE500F9D165 /* LXTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				846DEEAE21113E3B00F9D165 /* tabBar */,
+				846DEECD21113E7C00F9D165 /* category */,
+				846DEECE21113E7C00F9D165 /* class */,
+				846DEE7F21113DE600F9D165 /* AppDelegate.swift */,
+				846DEE8621113DE700F9D165 /* Assets.xcassets */,
+				846DEE8B21113DE700F9D165 /* Info.plist */,
+				846DEEAD21113E3A00F9D165 /* LXTabBar-Bridging-Header.h */,
+			);
+			path = LXTabBar;
+			sourceTree = "<group>";
+		};
+		846DEE9321113DE700F9D165 /* LXTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				846DEE9421113DE700F9D165 /* LXTabBarTests.swift */,
+				846DEE9621113DE700F9D165 /* Info.plist */,
+			);
+			path = LXTabBarTests;
+			sourceTree = "<group>";
+		};
+		846DEE9E21113DE700F9D165 /* LXTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846DEE9F21113DE700F9D165 /* LXTabBarUITests.swift */,
+				846DEEA121113DE700F9D165 /* Info.plist */,
+			);
+			path = LXTabBarUITests;
+			sourceTree = "<group>";
+		};
+		846DEEAE21113E3B00F9D165 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				846DEEAF21113E3B00F9D165 /* LXContactItem.swift */,
+				846DEEB021113E3B00F9D165 /* LXLookItem.swift */,
+				846DEEB121113E3B00F9D165 /* LXMessageItem.swift */,
+				846DEEB221113E3B00F9D165 /* LXTabBar.swift */,
+				846DEEB321113E3B00F9D165 /* LXTabBarController.swift */,
+				846DEEB421113E3B00F9D165 /* LXTabItem.swift */,
+				846DEEB521113E3B00F9D165 /* LXTimeLineItem.swift */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		846DEECD21113E7C00F9D165 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				846DEEB921113E3B00F9D165 /* UIColor+LXColor.h */,
+				846DEEB821113E3B00F9D165 /* UIColor+LXColor.m */,
+				846DEEB621113E3B00F9D165 /* UINavigationController+LXPush.h */,
+				846DEEB721113E3B00F9D165 /* UINavigationController+LXPush.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		846DEECE21113E7C00F9D165 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				846DEEC421113E4300F9D165 /* LXContactController.swift */,
+				846DEEC821113E4300F9D165 /* LXLookController.swift */,
+				846DEEC621113E4300F9D165 /* LXMessageController.swift */,
+				846DEEC521113E4300F9D165 /* LXTimeLineController.swift */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846DEE7B21113DE500F9D165 /* LXTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846DEEA421113DE700F9D165 /* Build configuration list for PBXNativeTarget "LXTabBar" */;
+			buildPhases = (
+				846DEE7821113DE500F9D165 /* Sources */,
+				846DEE7921113DE500F9D165 /* Frameworks */,
+				846DEE7A21113DE500F9D165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXTabBar;
+			productName = LXTabBar;
+			productReference = 846DEE7C21113DE500F9D165 /* LXTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846DEE8F21113DE700F9D165 /* LXTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846DEEA721113DE700F9D165 /* Build configuration list for PBXNativeTarget "LXTabBarTests" */;
+			buildPhases = (
+				846DEE8C21113DE700F9D165 /* Sources */,
+				846DEE8D21113DE700F9D165 /* Frameworks */,
+				846DEE8E21113DE700F9D165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846DEE9221113DE700F9D165 /* PBXTargetDependency */,
+			);
+			name = LXTabBarTests;
+			productName = LXTabBarTests;
+			productReference = 846DEE9021113DE700F9D165 /* LXTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846DEE9A21113DE700F9D165 /* LXTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846DEEAA21113DE700F9D165 /* Build configuration list for PBXNativeTarget "LXTabBarUITests" */;
+			buildPhases = (
+				846DEE9721113DE700F9D165 /* Sources */,
+				846DEE9821113DE700F9D165 /* Frameworks */,
+				846DEE9921113DE700F9D165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846DEE9D21113DE700F9D165 /* PBXTargetDependency */,
+			);
+			name = LXTabBarUITests;
+			productName = LXTabBarUITests;
+			productReference = 846DEE9B21113DE700F9D165 /* LXTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846DEE7421113DE500F9D165 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					846DEE7B21113DE500F9D165 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					846DEE8F21113DE700F9D165 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 846DEE7B21113DE500F9D165;
+					};
+					846DEE9A21113DE700F9D165 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 846DEE7B21113DE500F9D165;
+					};
+				};
+			};
+			buildConfigurationList = 846DEE7721113DE500F9D165 /* Build configuration list for PBXProject "LXTabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846DEE7321113DE500F9D165;
+			productRefGroup = 846DEE7D21113DE500F9D165 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846DEE7B21113DE500F9D165 /* LXTabBar */,
+				846DEE8F21113DE700F9D165 /* LXTabBarTests */,
+				846DEE9A21113DE700F9D165 /* LXTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846DEE7A21113DE500F9D165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846DEE8721113DE700F9D165 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846DEE8E21113DE700F9D165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846DEE9921113DE700F9D165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846DEE7821113DE500F9D165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846DEEBB21113E3B00F9D165 /* LXLookItem.swift in Sources */,
+				846DEEC021113E3B00F9D165 /* LXTimeLineItem.swift in Sources */,
+				846DEEC921113E4300F9D165 /* LXContactController.swift in Sources */,
+				846DEEBF21113E3B00F9D165 /* LXTabItem.swift in Sources */,
+				846DEECA21113E4300F9D165 /* LXTimeLineController.swift in Sources */,
+				846DEE8021113DE600F9D165 /* AppDelegate.swift in Sources */,
+				846DEEC121113E3B00F9D165 /* UINavigationController+LXPush.m in Sources */,
+				846DEEC221113E3B00F9D165 /* UIColor+LXColor.m in Sources */,
+				846DEEBC21113E3B00F9D165 /* LXMessageItem.swift in Sources */,
+				846DEEBE21113E3B00F9D165 /* LXTabBarController.swift in Sources */,
+				846DEECC21113E4300F9D165 /* LXLookController.swift in Sources */,
+				846DEEBD21113E3B00F9D165 /* LXTabBar.swift in Sources */,
+				846DEECB21113E4300F9D165 /* LXMessageController.swift in Sources */,
+				846DEEBA21113E3B00F9D165 /* LXContactItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846DEE8C21113DE700F9D165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846DEE9521113DE700F9D165 /* LXTabBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846DEE9721113DE700F9D165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846DEEA021113DE700F9D165 /* LXTabBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846DEE9221113DE700F9D165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846DEE7B21113DE500F9D165 /* LXTabBar */;
+			targetProxy = 846DEE9121113DE700F9D165 /* PBXContainerItemProxy */;
+		};
+		846DEE9D21113DE700F9D165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846DEE7B21113DE500F9D165 /* LXTabBar */;
+			targetProxy = 846DEE9C21113DE700F9D165 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		846DEEA221113DE700F9D165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846DEEA321113DE700F9D165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846DEEA521113DE700F9D165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liuxin.LXTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LXTabBar/LXTabBar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846DEEA621113DE700F9D165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liuxin.LXTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LXTabBar/LXTabBar-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846DEEA821113DE700F9D165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liuxin.LXTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXTabBar.app/LXTabBar";
+			};
+			name = Debug;
+		};
+		846DEEA921113DE700F9D165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liuxin.LXTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXTabBar.app/LXTabBar";
+			};
+			name = Release;
+		};
+		846DEEAB21113DE700F9D165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liuxin.LXTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXTabBar;
+			};
+			name = Debug;
+		};
+		846DEEAC21113DE700F9D165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liuxin.LXTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXTabBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846DEE7721113DE500F9D165 /* Build configuration list for PBXProject "LXTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846DEEA221113DE700F9D165 /* Debug */,
+				846DEEA321113DE700F9D165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846DEEA421113DE700F9D165 /* Build configuration list for PBXNativeTarget "LXTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846DEEA521113DE700F9D165 /* Debug */,
+				846DEEA621113DE700F9D165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846DEEA721113DE700F9D165 /* Build configuration list for PBXNativeTarget "LXTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846DEEA821113DE700F9D165 /* Debug */,
+				846DEEA921113DE700F9D165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846DEEAA21113DE700F9D165 /* Build configuration list for PBXNativeTarget "LXTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846DEEAB21113DE700F9D165 /* Debug */,
+				846DEEAC21113DE700F9D165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846DEE7421113DE500F9D165 /* Project object */;
+}
