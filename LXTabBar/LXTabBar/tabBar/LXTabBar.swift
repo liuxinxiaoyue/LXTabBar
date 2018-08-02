@@ -61,6 +61,7 @@ class LXTabBar: UIView {
                 return
             }
             selectIndex = index
+            break
         }
         if let select = delegate?.tabBar?(self, shouldSelect: selectIndex), !select {
             return
