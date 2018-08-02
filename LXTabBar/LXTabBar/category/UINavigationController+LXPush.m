@@ -11,7 +11,7 @@
 @implementation UINavigationController (LXPush)
 
 - (void)xb_pushViewController:(UIViewController *)controller animated:(BOOL)animation {
-    if (controller.tabBarController == nil || controller.tabBarController.tabBar.isHidden) {
+    if (self.tabBarController == nil || self.tabBarController.tabBar.isHidden) {
         [self pushViewController:controller animated:animation];
         return;
     }
